@@ -8,15 +8,30 @@ background-color: aqua;
 }
 div{
 border: 5px solid black;
- height: 140px;
+ height: 30px;
  width: 200px;
  padding: 30px;
  position: relative;
- justify-items: center;
+
 }
-div.titulo{
-    border:solid coral 2px;
+label{
+    background-color: blueviolet;
 }
 input{
     border: solid 4px black;
+    height: 40px;
+    border-radius: 25px;
+      
+
+}
+select{
+    background-color: blue;
+    width: 90px;
+    height: 40px;
+    border-radius: 15px;
+
+}
+button{
+    background-color: brown;
+
 }

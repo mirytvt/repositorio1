@@ -7,31 +7,36 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <div class="titulo">
-        <h1>
-            cambio de divisas
-        </h1>
-    </div>
-        <div>
-            <h1>a</h1>
-            <input type="text">
-            <h2>=</h2>
-            <br>
-            <h1>b</h1>
-            <input type="text">
-        </div>
-        <br>
-        <div>
-            <h1>a</h1>
-            <input type="text">
-            <h2>=</h2>
-            <br>
-            <h1>b</h1>
-            <input type="text">
-        </div>
+    <h1>Conversor de Divisas</h1>
+  <form id="formulario">
+    <label for="monedaOrigen">De</label>
+    <select id="monedaOrigen">
+      <option value="euro">Euro</option>
+      <option value="dolar">Dolar</option>
+      <option value="peso">Peso</option>
+      <option value="yén">Yén</option>
+    </select>
 
+    <br><br>
 
-        
+    <label for="cantidad">cantidad:</label>
+    <input type="number" id="cantidad" value="0">
+
+    <br><br>
+
+    <label for="monedaDestino">A:</label>
+    <select id="monedaDestino">
+      <option value="euro">Euro</option>
+      <option value="dolar">Dolar</option>
+      <option value="peso">Peso</option>
+      <option value="yén">Yén</option>
+    </select>
+
+    <br><br>
+
+    <button type="submit">Convertir</button>
+  </form>
+  <div id="resultado"></div>
     <script src="main.js"></script>
 </body>
 </html>
